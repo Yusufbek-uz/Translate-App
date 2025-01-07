@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #4a00e0, #8e2de2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/night.jpg);
+    background-size: cover;
+}
+.container {
+    /* background: linear-gradient(to bottom, #1500ff, #6109ee); */
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    text-align: center;
+}
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    backdrop-filter: blur(5px);
+    color: white;
+    background-color: #0057b320;
+    border: 1px solid #0024b3b5;
+}
+::placeholder {
+    color: white;
+}
+select {
+    width: 48%;
+    margin: 10px 1%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0057b32d;
+    color: white;
+    border: 1px solid #0057b3ed;
+    option{
+        color: white;
+        background-color: #001832fa;
+    }
+}
+.btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background: #0056b3;
+}
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
